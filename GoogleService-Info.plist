@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>653827898069-ud5qdedfrbjfmmrar1q5vuf36n37c329.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.653827898069-ud5qdedfrbjfmmrar1q5vuf36n37c329</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCMltCYI2CZKKLyYHbj0_YOjfIEmlZ818s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>653827898069</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.AttachEcoApp</string>
+	<key>PROJECT_ID</key>
+	<string>attacheco-79f5f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>attacheco-79f5f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:653827898069:ios:ea8151b95ccdf3daa9c05c</string>
+	<key>DATABASE_URL</key>
+	<string>https://attacheco-79f5f.firebaseio.com</string>
+</dict>
+</plist>

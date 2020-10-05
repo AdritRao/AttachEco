@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E386873CC144615A081AEB3 /* Pods_AttachEcoApp_AttachEcoAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F7B19F4684F7716FE58E02 /* Pods_AttachEcoApp_AttachEcoAppUITests.framework */; };
+		4308550A2526B7C900CD892B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430855092526B7C900CD892B /* AppDelegate.swift */; };
+		4308550C2526B7C900CD892B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4308550B2526B7C900CD892B /* SceneDelegate.swift */; };
+		430855112526B7C900CD892B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4308550F2526B7C900CD892B /* Main.storyboard */; };
+		430855132526B7CB00CD892B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 430855122526B7CB00CD892B /* Assets.xcassets */; };
+		430855162526B7CB00CD892B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430855142526B7CB00CD892B /* LaunchScreen.storyboard */; };
+		430855212526B7CB00CD892B /* AttachEcoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430855202526B7CB00CD892B /* AttachEcoAppTests.swift */; };
+		4308552C2526B7CB00CD892B /* AttachEcoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4308552B2526B7CB00CD892B /* AttachEcoAppUITests.swift */; };
+		430855402526B7E000CD892B /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4308553F2526B7E000CD892B /* StartViewController.swift */; };
+		430855452527D81200CD892B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 430855442527D81200CD892B /* GoogleService-Info.plist */; };
+		4308555B2527D85000CD892B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4308555A2527D85000CD892B /* SignInViewController.swift */; };
+		430855742527D98C00CD892B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430855732527D98C00CD892B /* SignUpViewController.swift */; };
+		430855792527DE8B00CD892B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430855782527DE8B00CD892B /* HomeViewController.swift */; };
+		4308557E2527DF4800CD892B /* AddDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4308557D2527DF4800CD892B /* AddDeviceViewController.swift */; };
+		430855832527EDAE00CD892B /* Group 6 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 430855822527EDAE00CD892B /* Group 6 (1).png */; };
+		4308558B2528D63C00CD892B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4308558A2528D63C00CD892B /* DetailsViewController.swift */; };
+		430855902528EEEC00CD892B /* DetectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4308558F2528EEEC00CD892B /* DetectViewController.swift */; };
+		430855952528EF0500CD892B /* Flower.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 430855942528EF0500CD892B /* Flower.mlmodel */; };
+		4308559D2528F70000CD892B /* BirdDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4308559C2528F70000CD892B /* BirdDetectionViewController.swift */; };
+		430855A22528F73500CD892B /* Bird.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 430855A12528F73500CD892B /* Bird.mlmodel */; };
+		430855AA2528F84F00CD892B /* Animals.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 430855A92528F84F00CD892B /* Animals.mlmodel */; };
+		430855B22528F86200CD892B /* AnimalDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430855B12528F86200CD892B /* AnimalDetectionViewController.swift */; };
+		430855B72528FCB300CD892B /* MiddleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430855B62528FCB300CD892B /* MiddleViewController.swift */; };
+		430855BC2528FEC500CD892B /* LearnMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430855BB2528FEC500CD892B /* LearnMoreViewController.swift */; };
+		430855C12529047500CD892B /* InsectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430855C02529047500CD892B /* InsectViewController.swift */; };
+		430855C6252904A600CD892B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430855C5252904A600CD892B /* ViewController.swift */; };
+		430855FA25293C3800CD892B /* Insectt.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 430855F925293C3700CD892B /* Insectt.mlmodel */; };
+		43085618252951F800CD892B /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43085617252951F700CD892B /* ChartViewController.swift */; };
+		430856AF252A58AA00CD892B /* ChooseDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430856AE252A58A900CD892B /* ChooseDataViewController.swift */; };
+		430856B4252A5D0000CD892B /* HumChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430856B3252A5D0000CD892B /* HumChartViewController.swift */; };
+		430856B9252A5DEC00CD892B /* GasChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430856B8252A5DEC00CD892B /* GasChartViewController.swift */; };
+		B45AACEFB03D103FCCFDB65F /* Pods_AttachEcoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C958666EDD05D9D867FCB49 /* Pods_AttachEcoAppTests.framework */; };
+		C234D6B2A18769A7CBF94E7C /* Pods_AttachEcoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B019D85098D1833DD743AD9A /* Pods_AttachEcoApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4308551D2526B7CB00CD892B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 430854FE2526B7C900CD892B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 430855052526B7C900CD892B;
+			remoteInfo = AttachEcoApp;
+		};
+		430855282526B7CB00CD892B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 430854FE2526B7C900CD892B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 430855052526B7C900CD892B;
+			remoteInfo = AttachEcoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07310691EFD1F462040B3CE0 /* Pods-AttachEcoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AttachEcoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-AttachEcoAppTests/Pods-AttachEcoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1FEE86A326A1847ABA92FD18 /* Pods-AttachEcoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AttachEcoApp.release.xcconfig"; path = "Target Support Files/Pods-AttachEcoApp/Pods-AttachEcoApp.release.xcconfig"; sourceTree = "<group>"; };
+		430855062526B7C900CD892B /* AttachEcoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttachEcoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		430855092526B7C900CD892B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4308550B2526B7C900CD892B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		430855102526B7C900CD892B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		430855122526B7CB00CD892B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		430855152526B7CB00CD892B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		430855172526B7CB00CD892B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4308551C2526B7CB00CD892B /* AttachEcoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttachEcoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		430855202526B7CB00CD892B /* AttachEcoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachEcoAppTests.swift; sourceTree = "<group>"; };
+		430855222526B7CB00CD892B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		430855272526B7CB00CD892B /* AttachEcoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttachEcoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4308552B2526B7CB00CD892B /* AttachEcoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachEcoAppUITests.swift; sourceTree = "<group>"; };
+		4308552D2526B7CB00CD892B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4308553F2526B7E000CD892B /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		430855442527D81200CD892B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4308555A2527D85000CD892B /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		430855732527D98C00CD892B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		430855782527DE8B00CD892B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4308557D2527DF4800CD892B /* AddDeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDeviceViewController.swift; sourceTree = "<group>"; };
+		430855822527EDAE00CD892B /* Group 6 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 6 (1).png"; sourceTree = "<group>"; };
+		4308558A2528D63C00CD892B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		4308558F2528EEEC00CD892B /* DetectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectViewController.swift; sourceTree = "<group>"; };
+		430855942528EF0500CD892B /* Flower.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Flower.mlmodel; sourceTree = "<group>"; };
+		4308559C2528F70000CD892B /* BirdDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdDetectionViewController.swift; sourceTree = "<group>"; };
+		430855A12528F73500CD892B /* Bird.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Bird.mlmodel; sourceTree = "<group>"; };
+		430855A92528F84F00CD892B /* Animals.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Animals.mlmodel; sourceTree = "<group>"; };
+		430855B12528F86200CD892B /* AnimalDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetectionViewController.swift; sourceTree = "<group>"; };
+		430855B62528FCB300CD892B /* MiddleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleViewController.swift; sourceTree = "<group>"; };
+		430855BB2528FEC500CD892B /* LearnMoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMoreViewController.swift; sourceTree = "<group>"; };
+		430855C02529047500CD892B /* InsectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsectViewController.swift; sourceTree = "<group>"; };
+		430855C5252904A600CD892B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		430855F925293C3700CD892B /* Insectt.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Insectt.mlmodel; sourceTree = "<group>"; };
+		43085617252951F700CD892B /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		430856AE252A58A900CD892B /* ChooseDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseDataViewController.swift; sourceTree = "<group>"; };
+		430856B3252A5D0000CD892B /* HumChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumChartViewController.swift; sourceTree = "<group>"; };
+		430856B8252A5DEC00CD892B /* GasChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasChartViewController.swift; sourceTree = "<group>"; };
+		4C958666EDD05D9D867FCB49 /* Pods_AttachEcoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AttachEcoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D7D9BCBC8E8C63C8291D6AD /* Pods-AttachEcoApp-AttachEcoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AttachEcoApp-AttachEcoAppUITests.release.xcconfig"; path = "Target Support Files/Pods-AttachEcoApp-AttachEcoAppUITests/Pods-AttachEcoApp-AttachEcoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		65FC1B90EC909CB227AE3B50 /* Pods-AttachEcoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AttachEcoAppTests.release.xcconfig"; path = "Target Support Files/Pods-AttachEcoAppTests/Pods-AttachEcoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		6CD31C46DA92A551004A70AF /* Pods-AttachEcoApp-AttachEcoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AttachEcoApp-AttachEcoAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-AttachEcoApp-AttachEcoAppUITests/Pods-AttachEcoApp-AttachEcoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B019D85098D1833DD743AD9A /* Pods_AttachEcoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AttachEcoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F7B19F4684F7716FE58E02 /* Pods_AttachEcoApp_AttachEcoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AttachEcoApp_AttachEcoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7FBCC16A5FCFB99FE55ED2F /* Pods-AttachEcoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AttachEcoApp.debug.xcconfig"; path = "Target Support Files/Pods-AttachEcoApp/Pods-AttachEcoApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		430855032526B7C900CD892B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C234D6B2A18769A7CBF94E7C /* Pods_AttachEcoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		430855192526B7CB00CD892B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45AACEFB03D103FCCFDB65F /* Pods_AttachEcoAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		430855242526B7CB00CD892B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E386873CC144615A081AEB3 /* Pods_AttachEcoApp_AttachEcoAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030B292D4BB0C3F84EBBFE51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7FBCC16A5FCFB99FE55ED2F /* Pods-AttachEcoApp.debug.xcconfig */,
+				1FEE86A326A1847ABA92FD18 /* Pods-AttachEcoApp.release.xcconfig */,
+				6CD31C46DA92A551004A70AF /* Pods-AttachEcoApp-AttachEcoAppUITests.debug.xcconfig */,
+				5D7D9BCBC8E8C63C8291D6AD /* Pods-AttachEcoApp-AttachEcoAppUITests.release.xcconfig */,
+				07310691EFD1F462040B3CE0 /* Pods-AttachEcoAppTests.debug.xcconfig */,
+				65FC1B90EC909CB227AE3B50 /* Pods-AttachEcoAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		430854FD2526B7C900CD892B = {
+			isa = PBXGroup;
+			children = (
+				430855082526B7C900CD892B /* AttachEcoApp */,
+				4308551F2526B7CB00CD892B /* AttachEcoAppTests */,
+				4308552A2526B7CB00CD892B /* AttachEcoAppUITests */,
+				430855072526B7C900CD892B /* Products */,
+				030B292D4BB0C3F84EBBFE51 /* Pods */,
+				FD61FABE3902A6E82C100933 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		430855072526B7C900CD892B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				430855062526B7C900CD892B /* AttachEcoApp.app */,
+				4308551C2526B7CB00CD892B /* AttachEcoAppTests.xctest */,
+				430855272526B7CB00CD892B /* AttachEcoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		430855082526B7C900CD892B /* AttachEcoApp */ = {
+			isa = PBXGroup;
+			children = (
+				430855942528EF0500CD892B /* Flower.mlmodel */,
+				430855A12528F73500CD892B /* Bird.mlmodel */,
+				430855F925293C3700CD892B /* Insectt.mlmodel */,
+				430855A92528F84F00CD892B /* Animals.mlmodel */,
+				430855092526B7C900CD892B /* AppDelegate.swift */,
+				4308550B2526B7C900CD892B /* SceneDelegate.swift */,
+				430855822527EDAE00CD892B /* Group 6 (1).png */,
+				4308553F2526B7E000CD892B /* StartViewController.swift */,
+				4308555A2527D85000CD892B /* SignInViewController.swift */,
+				430855732527D98C00CD892B /* SignUpViewController.swift */,
+				430855782527DE8B00CD892B /* HomeViewController.swift */,
+				43085617252951F700CD892B /* ChartViewController.swift */,
+				430856B3252A5D0000CD892B /* HumChartViewController.swift */,
+				430856B8252A5DEC00CD892B /* GasChartViewController.swift */,
+				4308557D2527DF4800CD892B /* AddDeviceViewController.swift */,
+				4308558A2528D63C00CD892B /* DetailsViewController.swift */,
+				430855B62528FCB300CD892B /* MiddleViewController.swift */,
+				4308558F2528EEEC00CD892B /* DetectViewController.swift */,
+				4308559C2528F70000CD892B /* BirdDetectionViewController.swift */,
+				430855B12528F86200CD892B /* AnimalDetectionViewController.swift */,
+				430855BB2528FEC500CD892B /* LearnMoreViewController.swift */,
+				430855C02529047500CD892B /* InsectViewController.swift */,
+				430855C5252904A600CD892B /* ViewController.swift */,
+				430856AE252A58A900CD892B /* ChooseDataViewController.swift */,
+				4308550F2526B7C900CD892B /* Main.storyboard */,
+				430855122526B7CB00CD892B /* Assets.xcassets */,
+				430855142526B7CB00CD892B /* LaunchScreen.storyboard */,
+				430855442527D81200CD892B /* GoogleService-Info.plist */,
+				430855172526B7CB00CD892B /* Info.plist */,
+			);
+			path = AttachEcoApp;
+			sourceTree = "<group>";
+		};
+		4308551F2526B7CB00CD892B /* AttachEcoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				430855202526B7CB00CD892B /* AttachEcoAppTests.swift */,
+				430855222526B7CB00CD892B /* Info.plist */,
+			);
+			path = AttachEcoAppTests;
+			sourceTree = "<group>";
+		};
+		4308552A2526B7CB00CD892B /* AttachEcoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4308552B2526B7CB00CD892B /* AttachEcoAppUITests.swift */,
+				4308552D2526B7CB00CD892B /* Info.plist */,
+			);
+			path = AttachEcoAppUITests;
+			sourceTree = "<group>";
+		};
+		FD61FABE3902A6E82C100933 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B019D85098D1833DD743AD9A /* Pods_AttachEcoApp.framework */,
+				C3F7B19F4684F7716FE58E02 /* Pods_AttachEcoApp_AttachEcoAppUITests.framework */,
+				4C958666EDD05D9D867FCB49 /* Pods_AttachEcoAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		430855052526B7C900CD892B /* AttachEcoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 430855302526B7CB00CD892B /* Build configuration list for PBXNativeTarget "AttachEcoApp" */;
+			buildPhases = (
+				5B1FB36EA41B695A78AECA97 /* [CP] Check Pods Manifest.lock */,
+				430855022526B7C900CD892B /* Sources */,
+				430855032526B7C900CD892B /* Frameworks */,
+				430855042526B7C900CD892B /* Resources */,
+				44308FDF96EC61BB7ADA024B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AttachEcoApp;
+			productName = AttachEcoApp;
+			productReference = 430855062526B7C900CD892B /* AttachEcoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4308551B2526B7CB00CD892B /* AttachEcoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 430855332526B7CB00CD892B /* Build configuration list for PBXNativeTarget "AttachEcoAppTests" */;
+			buildPhases = (
+				2B1D0A353432B111A4CD517C /* [CP] Check Pods Manifest.lock */,
+				430855182526B7CB00CD892B /* Sources */,
+				430855192526B7CB00CD892B /* Frameworks */,
+				4308551A2526B7CB00CD892B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4308551E2526B7CB00CD892B /* PBXTargetDependency */,
+			);
+			name = AttachEcoAppTests;
+			productName = AttachEcoAppTests;
+			productReference = 4308551C2526B7CB00CD892B /* AttachEcoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		430855262526B7CB00CD892B /* AttachEcoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 430855362526B7CB00CD892B /* Build configuration list for PBXNativeTarget "AttachEcoAppUITests" */;
+			buildPhases = (
+				0219A7A2022E4F976BC3EEB2 /* [CP] Check Pods Manifest.lock */,
+				430855232526B7CB00CD892B /* Sources */,
+				430855242526B7CB00CD892B /* Frameworks */,
+				430855252526B7CB00CD892B /* Resources */,
+				B42A1D7C9F952F7979F6422F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				430855292526B7CB00CD892B /* PBXTargetDependency */,
+			);
+			name = AttachEcoAppUITests;
+			productName = AttachEcoAppUITests;
+			productReference = 430855272526B7CB00CD892B /* AttachEcoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		430854FE2526B7C900CD892B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					430855052526B7C900CD892B = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					4308551B2526B7CB00CD892B = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 430855052526B7C900CD892B;
+					};
+					430855262526B7CB00CD892B = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 430855052526B7C900CD892B;
+					};
+				};
+			};
+			buildConfigurationList = 430855012526B7C900CD892B /* Build configuration list for PBXProject "AttachEcoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 430854FD2526B7C900CD892B;
+			productRefGroup = 430855072526B7C900CD892B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				430855052526B7C900CD892B /* AttachEcoApp */,
+				4308551B2526B7CB00CD892B /* AttachEcoAppTests */,
+				430855262526B7CB00CD892B /* AttachEcoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		430855042526B7C900CD892B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430855162526B7CB00CD892B /* LaunchScreen.storyboard in Resources */,
+				430855832527EDAE00CD892B /* Group 6 (1).png in Resources */,
+				430855452527D81200CD892B /* GoogleService-Info.plist in Resources */,
+				430855132526B7CB00CD892B /* Assets.xcassets in Resources */,
+				430855112526B7C900CD892B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4308551A2526B7CB00CD892B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		430855252526B7CB00CD892B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0219A7A2022E4F976BC3EEB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AttachEcoApp-AttachEcoAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B1D0A353432B111A4CD517C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AttachEcoAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44308FDF96EC61BB7ADA024B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AttachEcoApp/Pods-AttachEcoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AttachEcoApp/Pods-AttachEcoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AttachEcoApp/Pods-AttachEcoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B1FB36EA41B695A78AECA97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AttachEcoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B42A1D7C9F952F7979F6422F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AttachEcoApp-AttachEcoAppUITests/Pods-AttachEcoApp-AttachEcoAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AttachEcoApp-AttachEcoAppUITests/Pods-AttachEcoApp-AttachEcoAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AttachEcoApp-AttachEcoAppUITests/Pods-AttachEcoApp-AttachEcoAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		430855022526B7C900CD892B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4308555B2527D85000CD892B /* SignInViewController.swift in Sources */,
+				43085618252951F800CD892B /* ChartViewController.swift in Sources */,
+				4308550A2526B7C900CD892B /* AppDelegate.swift in Sources */,
+				430855952528EF0500CD892B /* Flower.mlmodel in Sources */,
+				430855902528EEEC00CD892B /* DetectViewController.swift in Sources */,
+				4308557E2527DF4800CD892B /* AddDeviceViewController.swift in Sources */,
+				430855B72528FCB300CD892B /* MiddleViewController.swift in Sources */,
+				4308558B2528D63C00CD892B /* DetailsViewController.swift in Sources */,
+				430855B22528F86200CD892B /* AnimalDetectionViewController.swift in Sources */,
+				4308550C2526B7C900CD892B /* SceneDelegate.swift in Sources */,
+				430856B9252A5DEC00CD892B /* GasChartViewController.swift in Sources */,
+				430856B4252A5D0000CD892B /* HumChartViewController.swift in Sources */,
+				4308559D2528F70000CD892B /* BirdDetectionViewController.swift in Sources */,
+				430855A22528F73500CD892B /* Bird.mlmodel in Sources */,
+				430855AA2528F84F00CD892B /* Animals.mlmodel in Sources */,
+				430855C6252904A600CD892B /* ViewController.swift in Sources */,
+				430855BC2528FEC500CD892B /* LearnMoreViewController.swift in Sources */,
+				430855C12529047500CD892B /* InsectViewController.swift in Sources */,
+				430856AF252A58AA00CD892B /* ChooseDataViewController.swift in Sources */,
+				430855402526B7E000CD892B /* StartViewController.swift in Sources */,
+				430855742527D98C00CD892B /* SignUpViewController.swift in Sources */,
+				430855792527DE8B00CD892B /* HomeViewController.swift in Sources */,
+				430855FA25293C3800CD892B /* Insectt.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		430855182526B7CB00CD892B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430855212526B7CB00CD892B /* AttachEcoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		430855232526B7CB00CD892B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4308552C2526B7CB00CD892B /* AttachEcoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4308551E2526B7CB00CD892B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 430855052526B7C900CD892B /* AttachEcoApp */;
+			targetProxy = 4308551D2526B7CB00CD892B /* PBXContainerItemProxy */;
+		};
+		430855292526B7CB00CD892B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 430855052526B7C900CD892B /* AttachEcoApp */;
+			targetProxy = 430855282526B7CB00CD892B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4308550F2526B7C900CD892B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				430855102526B7C900CD892B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		430855142526B7CB00CD892B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				430855152526B7CB00CD892B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4308552E2526B7CB00CD892B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4308552F2526B7CB00CD892B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		430855312526B7CB00CD892B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7FBCC16A5FCFB99FE55ED2F /* Pods-AttachEcoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y65AD5HVCG;
+				INFOPLIST_FILE = AttachEcoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AttachEcoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		430855322526B7CB00CD892B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FEE86A326A1847ABA92FD18 /* Pods-AttachEcoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y65AD5HVCG;
+				INFOPLIST_FILE = AttachEcoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AttachEcoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		430855342526B7CB00CD892B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07310691EFD1F462040B3CE0 /* Pods-AttachEcoAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y65AD5HVCG;
+				INFOPLIST_FILE = AttachEcoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AttachEcoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AttachEcoApp.app/AttachEcoApp";
+			};
+			name = Debug;
+		};
+		430855352526B7CB00CD892B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65FC1B90EC909CB227AE3B50 /* Pods-AttachEcoAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y65AD5HVCG;
+				INFOPLIST_FILE = AttachEcoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AttachEcoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AttachEcoApp.app/AttachEcoApp";
+			};
+			name = Release;
+		};
+		430855372526B7CB00CD892B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CD31C46DA92A551004A70AF /* Pods-AttachEcoApp-AttachEcoAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y65AD5HVCG;
+				INFOPLIST_FILE = AttachEcoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AttachEcoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AttachEcoApp;
+			};
+			name = Debug;
+		};
+		430855382526B7CB00CD892B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D7D9BCBC8E8C63C8291D6AD /* Pods-AttachEcoApp-AttachEcoAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y65AD5HVCG;
+				INFOPLIST_FILE = AttachEcoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AttachEcoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AttachEcoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		430855012526B7C900CD892B /* Build configuration list for PBXProject "AttachEcoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4308552E2526B7CB00CD892B /* Debug */,
+				4308552F2526B7CB00CD892B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		430855302526B7CB00CD892B /* Build configuration list for PBXNativeTarget "AttachEcoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				430855312526B7CB00CD892B /* Debug */,
+				430855322526B7CB00CD892B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		430855332526B7CB00CD892B /* Build configuration list for PBXNativeTarget "AttachEcoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				430855342526B7CB00CD892B /* Debug */,
+				430855352526B7CB00CD892B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		430855362526B7CB00CD892B /* Build configuration list for PBXNativeTarget "AttachEcoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				430855372526B7CB00CD892B /* Debug */,
+				430855382526B7CB00CD892B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 430854FE2526B7C900CD892B /* Project object */;
+}
